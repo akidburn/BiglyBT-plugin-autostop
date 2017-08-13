@@ -1,5 +1,13 @@
-Azureus AutoStop Plugin
-Copyright(c) 2004 Chris Rose
+
+## Install
+
+ 1. Unpack autostop.zip into YourPath\BiglyBT\plugins\autostop\
+ 2. Run BiglyBT
+
+## Readme
+
+BiglyBT AutoStop Plugin
+Copyright(c) 2004-2017 Chris Rose, akidburn
 Released under the GPL
 
 The purpose of this plugin is to help with people whose ISPs are anal-retentive
@@ -9,7 +17,7 @@ at less than a 1.0 share ratio, but other than that it will disable uploads for
 a few ratios that are equal to or greater than that.
 
 The settings are, I hope, more or less self-explanatory.  Feel free to comment on
-it at http://www.offlineblog.com/projects/azureus-autostop-plugin.
+it.
 
 ## Version History
 

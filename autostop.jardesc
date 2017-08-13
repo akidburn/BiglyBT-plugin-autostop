@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <jardesc>
-    <jar path="autostop/autostop.jar"/>
-    <options buildIfNeeded="true" compress="true" descriptionLocation="/autostop/autostop.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <jar path="BiglyBT-plugin-autostop/autostop.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/BiglyBT-plugin-autostop/autostop.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
     <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
@@ -11,12 +11,10 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <javaElement handleIdentifier="=autostop/&lt;org.biglybt.plugins.stopseeding.ui.menu"/>
-        <javaElement handleIdentifier="=autostop/&lt;org.biglybt.plugins.stopseeding"/>
-        <file path="/autostop/plugin.properties"/>
-        <file path="/autostop/.classpath"/>
-        <javaElement handleIdentifier="=autostop/&lt;org.biglybt.plugins.stopseeding.core"/>
-        <file path="/autostop/.project"/>
-        <file path="/autostop/README.md"/>
+        <javaElement handleIdentifier="=BiglyBT-plugin-autostop/&lt;org.biglybt.plugins.stopseeding"/>
+        <file path="/BiglyBT-plugin-autostop/plugin.properties"/>
+        <file path="/BiglyBT-plugin-autostop/README.txt"/>
+        <javaElement handleIdentifier="=BiglyBT-plugin-autostop/&lt;org.biglybt.plugins.stopseeding.ui.menu"/>
+        <javaElement handleIdentifier="=BiglyBT-plugin-autostop/&lt;org.biglybt.plugins.stopseeding.core"/>
     </selectedElements>
 </jardesc>
